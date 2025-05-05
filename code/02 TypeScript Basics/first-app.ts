@@ -134,7 +134,7 @@ function performAction(action: string | number, role: Role) {
 }
 
 let roles: Array<Role>;
-roles = ['admin', 'editor'];
+roles = ['admin', 'editor', 'user'];
 
 type DataStorage<T> = {
   storage: T[];
