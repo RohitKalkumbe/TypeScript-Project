@@ -161,6 +161,6 @@ function merge<T, U>(a: T, b: U) {
 }
 
 const newUser = merge(
-  { name: 'Max' },
+  { name: 'Saurabh is PR viewer' },
   { age: 34 }
 );
